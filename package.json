@@ -1,0 +1,20 @@
+{
+  "author": "Felix Gnass",
+  "name": "tamper",
+  "description": "middleware to capture and modify response bodies",
+  "version": "0.1.0",
+  "homepage": "http://github.com/fgnass/tamper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fgnass/tamper.git"
+  },
+  "main": "./index",
+  "devDependencies": {
+    "should": "~1.1.0",
+    "mocha": "~1.4.1",
+    "supertest": "~0.1.2"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  }
+}
