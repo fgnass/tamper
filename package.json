@@ -8,6 +8,7 @@
     "type": "git",
     "url": "https://github.com/fgnass/tamper.git"
   },
+  "keywords": ["connect", "middleware", "capture", "modify", "response"],
   "main": "./index",
   "devDependencies": {
     "should": "~1.1.0",
