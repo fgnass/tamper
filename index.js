@@ -1,1 +1,1 @@
-module.exports = require('./lib/tamper')
+module.exports = require('./lib/tamper');

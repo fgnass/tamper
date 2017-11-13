@@ -3,9 +3,6 @@
 
 [![Build Status](https://secure.travis-ci.org/fgnass/tamper.png)](http://travis-ci.org/fgnass/tamper)
 
-The intention of this module is to allow development tools like
-[Yeoman](http://yeoman.io) to inject code snippets into the files they serve.
-
 ## Installation
 
   npm install tamper
@@ -24,22 +21,23 @@ app.use(tamper(function(req, res) {
 
     // When returning a falsy value processing will continue as usual
     // without any performance impact.
-    return
+    return;
   }
 
   // Return a function in order to capture and modify the response body:
   return function(body) {
-    return body.replace(/foo/g, 'bar')
-  }
+    // The function may either return a Promise or a string
+    return body.replace(/foo/g, 'bar');
+  };
 
-})
+});
 ```
 
 ## License
 
 (The MIT License)
 
-Copyright (c) 2012 Felix Gnass
+Copyright (c) 2017 Felix Gnass
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

@@ -2,20 +2,33 @@
   "author": "Felix Gnass",
   "name": "tamper",
   "description": "middleware to capture and modify response bodies",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">= 5.10"
+  },
   "homepage": "http://github.com/fgnass/tamper",
   "repository": {
     "type": "git",
     "url": "https://github.com/fgnass/tamper.git"
   },
-  "keywords": ["connect", "middleware", "capture", "modify", "response"],
+  "keywords": [
+    "connect",
+    "middleware",
+    "capture",
+    "modify",
+    "response"
+  ],
   "main": "./index",
   "devDependencies": {
-    "should": "~1.1.0",
-    "mocha": "~1.4.1",
-    "supertest": "~0.1.2"
+    "eslint": "^4.11.0",
+    "eslint-config-prettier": "^2.7.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "mocha": "^4.0.1",
+    "prettier": "^1.8.2",
+    "supertest": "^3.0.0"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha"
+    "test": "mocha",
+    "lint": "eslint ."
   }
 }
