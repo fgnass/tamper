@@ -20,12 +20,12 @@
   ],
   "main": "./index",
   "devDependencies": {
-    "eslint": "^4.11.0",
-    "eslint-config-prettier": "^2.7.0",
-    "eslint-plugin-prettier": "^2.3.1",
-    "mocha": "^4.0.1",
-    "prettier": "^1.8.2",
-    "supertest": "^3.0.0"
+    "eslint": "^5.13.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "mocha": "^5.2.0",
+    "prettier": "^1.16.4",
+    "supertest": "^3.4.2"
   },
   "scripts": {
     "test": "mocha",
