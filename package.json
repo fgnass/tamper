@@ -3,9 +3,6 @@
   "name": "tamper",
   "description": "middleware to capture and modify response bodies",
   "version": "1.0.0",
-  "engines": {
-    "node": ">= 5.10"
-  },
   "homepage": "http://github.com/fgnass/tamper",
   "repository": {
     "type": "git",
