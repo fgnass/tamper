@@ -30,7 +30,7 @@ function fixtureHandler(req, res) {
   } else {
     if (q.fill) {
       // write a buffer filled with 'x'
-      var b = new Buffer(parseInt(q.fill, 10));
+      var b = Buffer.alloc(parseInt(q.fill, 10));
       b.fill('x');
       res.write(b);
     }
