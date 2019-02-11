@@ -2,7 +2,7 @@
   "author": "Felix Gnass",
   "name": "tamper",
   "description": "middleware to capture and modify response bodies",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "http://github.com/fgnass/tamper",
   "repository": {
     "type": "git",
